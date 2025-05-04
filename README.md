@@ -34,7 +34,7 @@ The dataset used for training the model is from the **FER-2013** dataset, availa
 
 ## Project Structure  
 Facial-Expression-Recognition/  
-├── static/
+├── static/  
 │   ├── uploads/                       
 │   ├── style.css                     
 │   └── app.js                       
