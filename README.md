@@ -35,13 +35,13 @@ The dataset used for training the model is from the **FER-2013** dataset, availa
 ## Project Structure  
 Facial-Expression-Recognition/  
 ├── static/
-│   ├── uploads/                       # Stores uploaded images for prediction  
-│   ├── style.css                      # CSS for styling the web page  
-│   └── app.js                         # JavaScript for handling predictions  
+│   ├── uploads/                       
+│   ├── style.css                     
+│   └── app.js                       
 ├── templates/  
-│   └── index.html                     # HTML frontend  
-├── emotion_model_improved.h5          # Trained facial expression model  
-├── app.py                             # Flask backend to handle requests  
-├── train.py                           # Script to train the emotion detection model  
-├── requirements.txt                   # Python dependencies  
+│   └── index.html                      
+├── emotion_model_improved.h5          
+├── app.py                             
+├── train.py                           
+├── requirements.txt                  
 
