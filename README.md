@@ -47,14 +47,32 @@ Facial-Expression-Recognition/
 
 ## How to Run the Project
 
-1. **Clone the repository**:
-   ```bash
-   git clone https://github.com/Maithiliii/Facial-Expression-Recognition.git
-   cd Facial-Expression-Recognition
+## How to Run the Project
 
+1. **Clone the repository**:
+
+```bash
+git clone https://github.com/your-username/Facial-Expression-Recognition.git
+cd Facial-Expression-Recognition
 Install the required dependencies:
+
+```bash
+pip install -r requirements.txt
+Run the Flask app:
 
 bash
 Copy
 Edit
-pip install -r requirements.txt
+python app.py
+Open the app in your browser:
+
+Go to
+
+text
+Copy
+Edit
+http://127.0.0.1:5000/
+Use the Web Interface:
+
+Upload a face image and click the "Detect Expression" button to view the prediction.
+
