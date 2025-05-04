@@ -1,6 +1,11 @@
 # Facial-Expression-Recognition
 This project detects 7 emotions — Angry, Disgust, Fear, Happy, Neutral, Sad, and Surprise — from face images. It’s trained on the FER2013 dataset using a deep learning model.  
 
+Model Architecture  
+This project uses MobileNetV2 as the base model (pretrained on ImageNet).  
+The architecture was fine-tuned by unfreezing the top layers and training with grayscale 48×48 pixel images, adapting it for facial expression classification across 7 emotion categories:
+Angry, Disgust, Fear, Happy, Neutral, Sad, Surprise.  
+
 ## Features  
 - Upload an image and detect the facial expression  
 - Shows prediction with confidence score  
@@ -45,34 +50,35 @@ Facial-Expression-Recognition/
 ├── train.py                           
 ├── requirements.txt                  
 
-## How to Run the Project
+## 🚀 How to Run the Project
 
-## How to Run the Project
-
-1. **Clone the repository**:
+1. **Clone the repository**
 
 ```bash
 git clone https://github.com/your-username/Facial-Expression-Recognition.git
 cd Facial-Expression-Recognition
-Install the required dependencies:
+```
+
+2. **Install the required dependencies**
 
 ```bash
 pip install -r requirements.txt
-Run the Flask app:
+```
 
-bash
-Copy
-Edit
+3. **Run the Flask app**
+
+```bash
 python app.py
-Open the app in your browser:
+```
 
-Go to
+4. **Open the app in your browser**
 
-text
-Copy
-Edit
+```text
 http://127.0.0.1:5000/
-Use the Web Interface:
+```
 
-Upload a face image and click the "Detect Expression" button to view the prediction.
+⚠️ Note
+The model file emotion_model_improved.h5 is already included.
+You do not need to run train.py or test.py unless you want to retrain the model using the FER2013 dataset.
+
 
