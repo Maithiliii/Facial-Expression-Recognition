@@ -45,3 +45,16 @@ Facial-Expression-Recognition/
 ├── train.py                           
 ├── requirements.txt                  
 
+## How to Run the Project
+
+1. **Clone the repository**:
+   ```bash
+   git clone https://github.com/Maithiliii/Facial-Expression-Recognition.git
+   cd Facial-Expression-Recognition
+
+Install the required dependencies:
+
+bash
+Copy
+Edit
+pip install -r requirements.txt
