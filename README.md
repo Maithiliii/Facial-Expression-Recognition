@@ -12,6 +12,26 @@ This project detects 7 emotions — Angry, Disgust, Fear, Happy, Neutral, Sad, a
 - **Backend**: Python, Flask  
 - **Model**: MobileNetV2 (transfer learning), trained with grayscale 48x48 facial expression images
 
+## Dataset
+
+The dataset used for training the model is from the **FER-2013** dataset, available on Kaggle. You can find it [here](https://www.kaggle.com/datasets/msambare/fer2013).
+
+### About the Dataset
+
+- The data consists of **48x48 pixel grayscale images** of faces. The faces have been automatically registered so that the face is more or less centered and occupies a similar amount of space in each image.
+- The task is to categorize each face based on the **emotion** shown in the facial expression into one of seven categories:
+  - **0 = Angry**
+  - **1 = Disgust**
+  - **2 = Fear**
+  - **3 = Happy**
+  - **4 = Sad**
+  - **5 = Surprise**
+  - **6 = Neutral**
+
+### Data Statistics:
+- **Training Set**: 28,709 examples
+- **Public Test Set**: 3,589 examples
+
 ## Project Structure  
 Facial-Expression-Recognition/  
 ├── static/
