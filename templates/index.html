@@ -1,1 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Facial Expression Detector</title>
+    <link rel="stylesheet" href="{{ url_for('static', filename='style.css') }}">
+</head>
+<body>
+    <header>
+        <h1>Facial Expression Detection 🔍</h1>
+        <p>Upload a face & detect the mood</p>
+    </header>
+
+    <section class="upload-section">
+        <div class="upload-box">
+            <input type="file" id="imageInput" accept="image/*">
+            <p>Drop or click to upload an image</p>
+            <button onclick="predictExpression()">Detect Expression</button>
+        </div>
+        <div id="loading" class="hidden">
+            <p>Analyzing...</p>
+        </div>
+    </section>
+
+    <section class="results">
+        <div class="result-box">
+            <h3>Uploaded Image</h3>
+            <img id="inputImage" src="#" alt="Input" class="hidden">
+        </div>
+        <div class="result-box small-box">
+            <h3>Prediction</h3>
+            <p id="predictionText" class="prediction-text hidden">-</p>
+            <p id="confidenceText" class="confidence-text hidden">-</p>
+        </div>
+    </section>
+ <!-- Link to js -->
+    <script src="{{ url_for('static', filename='app.js') }}"></script>
+</body>
+</html>
 
